@@ -430,3 +430,15 @@ a {
   width: auto;
   border-radius: 100px;
 }
+/* Fluid container */
+.container {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+/* Modern Layout (Flexbox) */
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+}
